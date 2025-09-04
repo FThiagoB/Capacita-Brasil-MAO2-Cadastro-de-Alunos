@@ -36,7 +36,7 @@ npm run start
 Foi criado uma **API RESTFul** que implementa as operações de **CRUD** (*Create*, *Read*, *Update* e *Delete*) usando o **Prisma ORM**.
 
 | Método | Rota | Descrição |
-| :------ | :---------: | -----: |
+| :------: | :---------: | :-----: |
 | GET   | http://localhost:3000/alunos | Retorna uma resposta JSON com as informações de todos os alunos do banco de dados. |
 | POST  | http://localhost:3000/alunos | Realiza o cadastro de um aluno ao passar as informações necessárias no corpo da requisição (formato **JSON** ou **Form URL Encoded**). Se nenhum erro ocorrer, retorna um JSON com os dados do aluno. |
 | DELETE | http://localhost:3000/alunos/:id | Deleta do banco de dados o aluno com o número de id especificado. Se nenhum erro ocorrer, retorna um JSON com os dados do aluno deletado. |
